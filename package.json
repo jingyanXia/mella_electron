@@ -1,6 +1,6 @@
 {
   "name": "mellaelectron",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "main.js",
   "private": true,
   "author": {
@@ -91,6 +91,9 @@
       "dist1/**/*"
     ],
     "extends": null,
+    "publish": [
+      "github"
+    ],
     "win": {
       "target": [
         {
@@ -99,9 +102,6 @@
             "x64"
           ]
         }
-      ],
-      "publish": [
-        "github"
       ]
     }
   },
